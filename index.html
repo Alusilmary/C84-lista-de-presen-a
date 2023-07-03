@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C84</title>
+    <link rel="stilesheet" type="text/css" href="=style.css"/>
+    <script src="main.js"></script>
+</head>
+<body>
+
+<!--vai centralizar tudo na página-->  
+    <div style="text-align: center">
+
+<!--guarda o heading da página(cabeçalho), o margin foi dado para que o heading tenha espaço para cima e para baixo-->
+        <h3 style="margin-top: 20px; margin-bottom: 20px;">
+              Lista de alunos em minha sala
+        </h3>
+
+
+        <div>
+            <span>1</span><!--guarda os números dos alunos-->
+            <!--tag input para receber o nome do aluno; placeholder como dica na caixa de entrada
+            E demos o nome do id como nameOfTheStudent1 para a primeira caixa de entrada-->
+            <input type="text" placeholder="Nome do Aluno" id="nameOfTheStudent1"><!--guarda o nome do aluno-->
+            <br><!--quebra de linha-->
+            <br>
+        </div>
+
+
+        <div>
+            <span>2</span><!--guarda os números dos alunos-->
+            <!--tag input para receber o nome do aluno; placeholder como dica na caixa de entrada
+            E demos o nome do id como nameOfTheStudent1 para a primeira caixa de entrada-->
+            <input type="text" placeholder="Nome do Aluno" id="nameOfTheStudent2"><!--guarda o nome do aluno-->
+            <br><!--quebra de linha-->
+            <br>
+        </div>
+
+
+        <div>
+            <span>3</span><!--guarda os números dos alunos-->
+            <!--tag input para receber o nome do aluno; placeholder como dica na caixa de entrada
+            E demos o nome do id como nameOfTheStudent1 para a primeira caixa de entrada-->
+            <input type="text" placeholder="Nome do Aluno" id="nameOfTheStudent3"><!--guarda o nome do aluno-->
+            <br><!--quebra de linha-->
+            <br>
+        </div>
+
+
+        <div>
+            <span>4</span><!--guarda os números dos alunos-->
+            <!--tag input para receber o nome do aluno; placeholder como dica na caixa de entrada
+            E demos o nome do id como nameOfTheStudent1 para a primeira caixa de entrada-->
+            <input type="text" placeholder="Nome do Aluno" id="nameOfTheStudent4"><!--guarda o nome do aluno-->
+            <br><!--quebra de linha-->
+            <br>
+        </div>
+
+
+            <!--criamos o botão e ajustamos a função onclick para chamar a função submit(), e um id para se referir a esse botão-->
+        <button onclick="submit()" id="submitButton">Enviar</button>
+
+            <!--mostra o nome dos alunos e o id ajuda para fazer referência a ela no JS-->
+        <div id="displayName"></div>
+
+
+
+
+
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,12 @@
+/*Para dar boa aparência ao botão*/
+#submitButton
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input
+{
+    margin: 10px; /*colocamos para que a caixa de entrada fique limpa*/
+}
+
